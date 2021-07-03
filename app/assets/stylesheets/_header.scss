@@ -7,13 +7,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: $white;
+  color: white;
   h1 {
     font-size: 72px;
   }
   .master {
     font-size: 26px;
-    color: $primary-color;
+    color: #26357c;
   }
 }
 
@@ -24,7 +24,7 @@
     }
     .master {
     font-size: 20px;
-    color: $white;
+    color: white;
     }
   }
 }
