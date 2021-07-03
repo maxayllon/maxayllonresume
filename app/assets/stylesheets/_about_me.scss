@@ -14,11 +14,18 @@
     }
   }
   .about-me-text {
-    padding-top: 240px;
+    padding-top: 290px;
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    height: 300vh;
+    height: 500px;
+    h1 {
+      letter-spacing: 8px;
+    }
+    .about-me-description {
+      margin-top: 24px;
+      letter-spacing: 1.5px;
+    }
   }
 }
 
@@ -31,5 +38,6 @@
 
   .about-me-text {
     width: 70% !important;
+    padding-top: 180px !important;
   }
 }
