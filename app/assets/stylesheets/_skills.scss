@@ -1,0 +1,55 @@
+.skills {
+  color: white;
+  .skill {
+    width: 100%;
+    background-color: #26357c;
+    border: 1px solid white;
+    padding: 37px;
+    h4 {
+      font-size: 20px;
+      letter-spacing: 0.3em;
+      text-align: center;
+      margin: 0px;
+    }
+  }
+  .skill_grid{
+    padding: 40px;
+    width: 100%;
+    min-height: 500px;
+    background-image: url("londonthree.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 54px;
+    .skill_unit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #48527B;
+      min-height: 54px;
+    }
+    p {
+      font-size: 20px;
+      margin: 0px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .skill_unit {
+    p {
+      font-size: 16px !important;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .skill_grid {
+     grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .skill_unit {
+    p {
+      font-size: 12px !important;
+    }
+  }
+}
