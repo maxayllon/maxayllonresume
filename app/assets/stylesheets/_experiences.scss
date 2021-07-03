@@ -1,0 +1,23 @@
+.experiences, .educations {
+  color: #26357c;
+  .experience-title, .education-title {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #f2eded;
+    padding: 37px;
+    h4 {
+      font-size: 20px;
+      letter-spacing: 0.3em;
+      text-align: center;
+      margin: 0px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .experiences, .educations {
+    h4 {
+      font-size: 16px !important;
+    }
+  }
+}
