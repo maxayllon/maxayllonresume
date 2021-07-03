@@ -1,0 +1,24 @@
+.experiences, .educations {
+  background-color: white;
+}
+
+.items {
+  width: 50%;
+  padding-top: 48px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  .item {
+    display: flex;
+    margin-bottom: 40px;
+    .item_key {
+      padding-right: 40px;
+    }
+    .item_value {
+      padding-left: 40px;
+    }
+  }
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+}
