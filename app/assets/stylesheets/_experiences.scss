@@ -1,6 +1,6 @@
-.experiences, .educations {
+.experiences, .educations, .hobbies {
   color: #26357c;
-  .experience-title, .education-title {
+  .experience-title, .education-title, .hobbies-title {
     width: 100%;
     background-color: white;
     border: 1px solid #f2eded;
@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 800px) {
-  .experiences, .educations {
+  .experiences, .educations, .hobbies {
     h4 {
       font-size: 16px !important;
     }

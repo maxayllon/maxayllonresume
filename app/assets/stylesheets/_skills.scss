@@ -13,11 +13,12 @@
     }
   }
   .skill_grid{
+    color:white;
+    background-image: url("londonthree.jpg");
+    background-size: cover;
     padding: 40px;
     width: 100%;
     min-height: 500px;
-    background-image: url("londonthree.jpg");
-    background-size: cover;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 54px;
