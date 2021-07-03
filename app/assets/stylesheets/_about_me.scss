@@ -1,0 +1,23 @@
+.about_me {
+  .photo-header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .photo-moi {
+      border-radius: 50%;
+      border: 8px solid $white;
+      width: 360px;
+      height: 360px;
+      position: relative;
+      top: -180px;
+    }
+  }
+  .about-me-text {
+    padding-top: 240px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    height: 300vh;
+  }
+}
