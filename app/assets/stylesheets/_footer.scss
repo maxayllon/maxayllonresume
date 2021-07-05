@@ -88,6 +88,15 @@
       background-color: #26357c;
       border: none;
       width: 100%;
+      color: white;
+      margin-top: 28px;
+      padding: 8px;
+      &:hover {
+        background-color: white;
+        color: #26357c;
+        transition: 0.5s;
+        text-decoration: none;
+      }
     }
   }
 }
