@@ -28,6 +28,10 @@
       align-items: center;
       background-color: #26357c;
       min-height: 50px;
+      &:hover {
+        background-color: #DF3143;
+        transition: 0.8s;
+      }
     }
     p {
       font-size: 20px;

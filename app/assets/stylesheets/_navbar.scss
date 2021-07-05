@@ -10,6 +10,12 @@
   h3 {
     letter-spacing: 4px;
   }
+  .name {
+    &:hover {
+      color: #DF3143;
+      transition: 0.8s;
+    }
+  }
   .languages {
     font-size: 16px;
     .language {
@@ -17,15 +23,18 @@
       padding: 16px;
       &:hover {
         text-decoration: none;
-        background-color: #26357c;
+        background-color: #DF3143;
         color: white;
-        transition: 0.5s;
+        transition: 0.8s;
       }
     }
     #select {
-    margin-left: 24px;
-    background-color: #26357c;
-    color: white
+      margin-left: 24px;
+      background-color: #26357c;
+      color: white;
+      &:hover {
+        background-color: #DF3143
+      }
     }
   }
   .download {
@@ -36,7 +45,7 @@
     &:hover {
       background-color: #26357c;
       border: 2px solid white;
-      transition: 0.5s;
+      transition: 0.8s;
       text-decoration:none;
       color: white;
     }
