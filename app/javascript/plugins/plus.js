@@ -27,52 +27,54 @@ const plusDescription = () => {
   const plus9 = document.querySelector('.plus-9')
   const itemDescription9 = document.querySelector('.item_description_9')
 
-  console.log(plus1)
-  console.log(itemDescription1)
+  const plus10 = document.querySelector('.plus-10')
+  const itemDescription10 = document.querySelector('.item_description_10')
+
+  const plus11 = document.querySelector('.plus-11')
+  const itemDescription11 = document.querySelector('.item_description_11')
 
   plus1.addEventListener('click', () =>{
     itemDescription1.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus2.addEventListener('click', () =>{
     itemDescription2.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus3.addEventListener('click', () =>{
     itemDescription3.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus4.addEventListener('click', () =>{
     itemDescription4.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus5.addEventListener('click', () =>{
     itemDescription5.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus6.addEventListener('click', () =>{
     itemDescription6.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus7.addEventListener('click', () =>{
     itemDescription7.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus8.addEventListener('click', () =>{
     itemDescription8.classList.toggle('no-display');
-    console.log("hello");
   })
 
   plus9.addEventListener('click', () =>{
     itemDescription9.classList.toggle('no-display');
-    console.log("hello");
+  })
+
+  plus10.addEventListener('click', () =>{
+    itemDescription10.classList.toggle('no-display');
+  })
+
+  plus11.addEventListener('click', () =>{
+    itemDescription11.classList.toggle('no-display');
   })
 }
 
