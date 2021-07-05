@@ -6,19 +6,32 @@
     <div class="quick-infos">
       <h3>QUICK INFOS</h3>
       <div class="red-square"></div>
-      <p class="personal-infos">Phone : 07 61 36 98 94</p>
-      <p class="personal-infos">Email : maxime.ayllon@essca.eu</p>
-      <%= link_to "https://www.linkedin.com/in/maxime-ayllon-961622179/" do %>
-        <%= image_tag "linkedin.png", class: "linkedin" %>
-      <% end %>
+      <div class="info-key">
+        <div class="info-value">
+          <p>Email</p>
+          <p>Phone</p>
+          <p class="link">Linkedin</p>
+        </div>
+        <div class="info-value">
+          <p class="values">maxime.ayllon@essca.eu</p>
+          <p class="values">07 61 36 98 94</p>
+          <%= link_to "https://www.linkedin.com/in/maxime-ayllon-961622179/" do %>
+            <%= image_tag "linkedin.png", class: "linkedin-logo values" %>
+          <% end %>
+        </div>
+      </div>
     </div>
     <div class="contact">
       <h3>CONTACT ME</h3>
       <div class="red-square"></div>
       <%= simple_form_for(@email) do |f| %>
         <div id="info" class="line">
-          <%= f.input :name, placeholder: "Castagne" %>
-          <%= f.input :phone, placeholder: "0" %>
+          <div class="form-name-phone">
+            <div class="form-name">
+              <%= f.input_field :name, placeholder: "Castagne" %>
+            </div>
+            <%= f.input :phone, placeholder: "0" %>
+          </div>
           <%= f.input :mail, placeholder: ".com" %>
           <%= f.input :message, placeholder: "enter your text" %>
           <%= f.submit "Submit", class: "button-submit" %>
@@ -27,4 +40,3 @@
     </div>
   </div>
 </div>
-<%= @error %>

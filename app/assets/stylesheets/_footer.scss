@@ -14,10 +14,72 @@
   }
 }
 
+.footers-infos {
+  display: flex;
+  .quick-infos, .contact {
+    width: 50%;
+    padding-bottom: 46px;
+    padding-top: 46px;
+    h3 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .red-square {
+    height: 12px;
+    width: 72px;
+    background-color: #DF3143;
+    margin-bottom: 40px;
+  }
+  .contact {
+    background-color: #BAC8DD;
+    color: #26357c;
+    padding-left: 3%;
+  }
+  .quick-infos {
+    padding-left: 16%;
+    background-color: #26357c;
+    color: white;
+    .linkedin-logo {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  .info-key {
+    display: flex;
+    .info-value {
+      display: flex;
+      flex-direction: column;
+      .link {
+        margin-bottom: 0px;
+        margin-top: 8px;
+      }
+      .values {
+        margin-left: 40px;
+      }
+    }
+  }
+  .form-name-phone {
+    display: flex;
+    .form-name {
+      margin-right: 32px;
+    }
+  }
+}
+
 @media (max-width: 800px) {
   .footers {
     h4 {
       font-size: 16px !important;
+    }
+  }
+  .footers-infos {
+    flex-direction: column !important;
+    .quick-infos, .contact {
+      width: 100%;
     }
   }
 }
