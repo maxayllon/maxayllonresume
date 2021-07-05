@@ -64,6 +64,9 @@
   }
   .form-container{
     width: 56.6%;
+    ::placeholder {
+      color: white;
+    }
     .form-name-phone {
       display: flex;
       .form-name {
