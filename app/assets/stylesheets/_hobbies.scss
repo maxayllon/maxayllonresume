@@ -5,9 +5,19 @@
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 48px;
     padding: 24px;
-    margin-top: 40px;
+    padding-top: 54px;
     padding-bottom: 40px;
-    .activity {
+    .activity-name {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 32px;
+      font-size: 17px;
+    }
+    .hobby-image {
+      height: 60px;
+      width: 60px;
+    }
+    .tennis {
       width: 180px;
       height: 180px;
       border-radius: 50%;
@@ -15,12 +25,6 @@
       justify-content: center;
       align-items: center;
       background-color: #BAC8DD;
-    }
-    .hobby-image {
-      height: 60px;
-      width: 60px;
-    }
-    .tennis {
       &:hover {
         background-color: #f2c94c;
         transition: 0.8s;
@@ -28,6 +32,13 @@
     }
 
     .run {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #BAC8DD;
       &:hover {
         background-color: #926401;
         transition: 0.8s;
@@ -35,6 +46,13 @@
     }
 
     .rugby {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #BAC8DD;
       &:hover {
         background-color: #3a9b46;
         transition: 0.8s;
@@ -42,6 +60,13 @@
     }
 
     .web {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #BAC8DD;
       &:hover {
         background-color: #44a2c2;
         transition: 0.8s;
@@ -49,6 +74,13 @@
     }
 
     .social {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #BAC8DD;
       .social-image {
         height: 50px;
       }
@@ -59,6 +91,13 @@
     }
 
     .travel {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #BAC8DD;
       &:hover {
         background-color: #d4d702;
         transition: 0.8s;
