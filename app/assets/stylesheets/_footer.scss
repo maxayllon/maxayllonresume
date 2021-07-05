@@ -1,0 +1,23 @@
+.footers {
+  color: #26357c;
+  .footer-title {
+    width: 100%;
+    background-color: #F1F1F1;
+    border: 1px solid white;
+    padding: 37px;
+    h4 {
+      font-size: 20px;
+      letter-spacing: 0.3em;
+      text-align: center;
+      margin: 0px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .footers {
+    h4 {
+      font-size: 16px !important;
+    }
+  }
+}
