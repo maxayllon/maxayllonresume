@@ -26,15 +26,19 @@
       <div class="red-square"></div>
       <%= simple_form_for(@email) do |f| %>
         <div id="info" class="line">
-          <div class="form-name-phone">
-            <div class="form-name">
-              <%= f.input_field :name, placeholder: "Castagne" %>
+          <div class="form-container">
+            <div class="form-name-phone">
+              <%= f.input_field :name, placeholder: "name *", class: "form-name" %>
+              <%= f.input_field :phone, placeholder: "phone", class: "phone" %>
             </div>
-            <%= f.input :phone, placeholder: "0" %>
+            <div class="form-email">
+              <%= f.input_field :mail, placeholder: "email *", class: "email" %>
+            </div>
+            <div class="form-text">
+              <%= f.input_field :message, placeholder: "type your message *", class: "text" %>
+            </div>
+            <%= f.submit "Submit", class: "button-submit" %>
           </div>
-          <%= f.input :mail, placeholder: ".com" %>
-          <%= f.input :message, placeholder: "enter your text" %>
-          <%= f.submit "Submit", class: "button-submit" %>
         </div>
       <% end %>
     </div>

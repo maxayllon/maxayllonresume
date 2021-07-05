@@ -62,15 +62,37 @@
       }
     }
   }
-  .form-name-phone {
-    display: flex;
-    .form-name {
-      margin-right: 32px;
+  .form-container{
+    width: 56.6%;
+    .form-name-phone {
+      display: flex;
+      .form-name {
+        margin-right: 40px;
+      }
+    }
+    .form-email, .form-text {
+      margin-top: 32px;
+      .text {
+        width: 100%;
+      }
+    }
+
+    .form-name, .phone, .email, .text {
+      background-color: #BAC8DD;
+      border: none;
+      border-bottom: 1.6px solid #26357c;
+      color: #26357c;
+    }
+
+    .button-submit {
+      background-color: #26357c;
+      border: none;
+      width: 100%;
     }
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   .footers {
     h4 {
       font-size: 16px !important;
@@ -84,5 +106,27 @@
     .contact {
       padding-left: 16%;
     }
+  }
+  .form-container{
+    width: 81% !important;
+    .form-name-phone, .form-email, .form-text, .quick-infos p {
+      font-size: 14px !important;
+    }
+  }
+
+  .quick-infos, .contact {
+    h3 {
+      font-size: 32px !important;
+    }
+  }
+
+  .linkedin-logo {
+    height: 28px !important;
+    width: 28px !important;
+  }
+
+  .red-square {
+    height: 8px !important;
+    width: 64px !important;
   }
 }

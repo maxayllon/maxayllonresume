@@ -36,7 +36,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   .skill_grid {
    grid-gap: 46px !important;
   }
@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .skill_grid {
    grid-template-columns: repeat(2, 1fr) !important;
    grid-gap: 40px !important;
