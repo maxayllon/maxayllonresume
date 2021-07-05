@@ -1,0 +1,46 @@
+<div class="footers">
+  <div class="footer-title">
+    <h4>CONTACT</h4>
+  </div>
+  <div class="footers-infos">
+    <div class="quick-infos">
+      <h3>QUICK INFOS</h3>
+      <div class="red-square"></div>
+      <div class="info-key">
+        <div class="info-value">
+          <p>Email</p>
+          <p>Phone</p>
+          <p class="link">Linkedin</p>
+        </div>
+        <div class="info-value">
+          <p class="values">maxime.ayllon@essca.eu</p>
+          <p class="values">07 61 36 98 94</p>
+          <%= link_to "https://www.linkedin.com/in/maxime-ayllon-961622179/" do %>
+            <%= image_tag "linkedin.png", class: "linkedin-logo values" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <h3>CONTACT ME</h3>
+      <div class="red-square"></div>
+      <%= simple_form_for(@email) do |f| %>
+        <div id="info" class="line">
+          <div class="form-container">
+            <div class="form-name-phone">
+              <%= f.input_field :name, placeholder: "name *", class: "form-name" %>
+              <%= f.input_field :phone, placeholder: "phone", class: "phone" %>
+            </div>
+            <div class="form-email">
+              <%= f.input_field :mail, placeholder: "email *", class: "email" %>
+            </div>
+            <div class="form-text">
+              <%= f.input_field :message, placeholder: "type your message *", class: "text" %>
+            </div>
+            <%= f.submit "Submit", class: "button-submit" %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

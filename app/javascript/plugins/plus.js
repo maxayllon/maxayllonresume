@@ -1,6 +1,7 @@
 const plusDescription = () => {
 
   const plus1 = document.querySelector('.plus-1')
+  const minus1 = document.querySelector('.minus-1')
   const itemDescription1 = document.querySelector('.item_description_1')
 
   const plus2 = document.querySelector('.plus-2')
