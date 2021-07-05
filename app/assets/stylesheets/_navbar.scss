@@ -26,6 +26,7 @@
         background-color: #DF3143;
         color: white;
         transition: 0.8s;
+        box-shadow: 3px 3px 18px -1px rgba(0,0,0,0.71);
       }
     }
     #select {
@@ -33,7 +34,8 @@
       background-color: #26357c;
       color: white;
       &:hover {
-        background-color: #DF3143
+        background-color: #DF3143;
+        box-shadow: 3px 3px 18px -1px rgba(0,0,0,0.71);
       }
     }
   }
@@ -48,6 +50,7 @@
       transition: 0.8s;
       text-decoration:none;
       color: white;
+      box-shadow: 3px 3px 18px -1px rgba(0,0,0,0.71);
     }
   }
 }
