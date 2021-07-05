@@ -46,6 +46,11 @@
     .linkedin-logo {
       height: 40px;
       width: 40px;
+      &:hover {
+        background-color: #DF3143;
+        border-radius: 50%;
+        transition: 0.8s;
+      }
     }
   }
   .info-key {
@@ -53,6 +58,13 @@
     .info-value {
       display: flex;
       flex-direction: column;
+      .values {
+        &:hover {
+          color: #DF3143;
+          text-decoration: none;
+          transition: 0.8s;
+        }
+      }
       .link {
         margin-bottom: 0px;
         margin-top: 8px;
@@ -97,7 +109,7 @@
       &:hover {
         background-color: white;
         color: #26357c;
-        transition: 0.5s;
+        transition: 0.8s;
         text-decoration: none;
       }
     }

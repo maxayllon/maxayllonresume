@@ -1,0 +1,96 @@
+.hobbies {
+  background-color: white;
+  .activities {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 48px;
+    padding: 24px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    .activity {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #BAC8DD;
+    }
+    .hobby-image {
+      height: 60px;
+      width: 60px;
+    }
+    .tennis {
+      &:hover {
+        background-color: #f2c94c;
+        transition: 0.8s;
+      }
+    }
+
+    .run {
+      &:hover {
+        background-color: #926401;
+        transition: 0.8s;
+      }
+    }
+
+    .rugby {
+      &:hover {
+        background-color: #3a9b46;
+        transition: 0.8s;
+      }
+    }
+
+    .web {
+      &:hover {
+        background-color: #44a2c2;
+        transition: 0.8s;
+      }
+    }
+
+    .social {
+      .social-image {
+        height: 50px;
+      }
+      &:hover {
+        background-color: #e88de8;
+        transition: 0.8s;
+      }
+    }
+
+    .travel {
+      &:hover {
+        background-color: #d4d702;
+        transition: 0.8s;
+      }
+    }
+  }
+}
+
+@media (max-width: 1360px) {
+  .activities {
+   grid-template-columns: repeat(6, 1fr) !important;
+   grid-gap: 24px !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .activities {
+   grid-template-columns: repeat(3, 1fr) !important;
+   grid-gap: 60px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .activities {
+   grid-template-columns: repeat(3, 1fr) !important;
+   grid-gap: 30px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .activities {
+   grid-template-columns: repeat(2, 1fr) !important;
+   grid-gap: 8px !important;
+  }
+}
