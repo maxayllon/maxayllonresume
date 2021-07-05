@@ -107,11 +107,9 @@
       padding-left: 16%;
     }
   }
-  .form-container{
-    width: 81% !important;
-    .form-name-phone, .form-email, .form-text, .quick-infos p {
-      font-size: 14px !important;
-    }
+
+  .form-name-phone, .form-email, .form-text, .quick-infos p {
+    font-size: 14px !important;
   }
 
   .quick-infos, .contact {
@@ -128,5 +126,19 @@
   .red-square {
     height: 8px !important;
     width: 64px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .form-container{
+    width: 81% !important;
+  }
+
+  .form-name-phone {
+    display: contents !important;
+    .form-name {
+      margin-bottom: 32px;
+      margin-right: 0px;
+    }
   }
 }
