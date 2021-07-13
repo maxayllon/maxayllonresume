@@ -1,9 +1,9 @@
 .footers {
-  color: $primary-color;
+  color: #26357c;
   .footer-title {
     width: 100%;
-    background-color: $light-gray;
-    border: 1px solid $white;
+    background-color: #F4F4F4;
+    border: 1px solid white;
     padding: 37px;
     h4 {
       font-size: 20px;
@@ -31,23 +31,23 @@
   .red-square {
     height: 12px;
     width: 72px;
-    background-color: $third-color;
+    background-color: #DF3143;
     margin-bottom: 40px;
   }
   .contact {
-    background-color: $secondary-color;
-    color: $primary-color;
+    background-color: #BAC8DD;
+    color: #26357c;
     padding-left: 6%;
   }
   .quick-infos {
     padding-left: 16%;
-    background-color: $primary-color;
-    color: $white;
+    background-color: #26357c;
+    color: white;
     .linkedin-logo {
       height: 40px;
       width: 40px;
       &:hover {
-        background-color: $third-color;
+        background-color: #DF3143;
         border-radius: 50%;
         transition: 0.8s;
         box-shadow: 3px 3px 18px -1px rgba(0,0,0,0.71)
@@ -61,7 +61,7 @@
       flex-direction: column;
       .values {
         &:hover {
-          color: $third-color;
+          color: #DF3143;
           text-decoration: none;
           transition: 0.8s;
         }
@@ -78,7 +78,7 @@
   .form-container{
     width: 56.6%;
     ::placeholder {
-      color: $white;
+      color: white;
     }
     .form-name-phone {
       display: flex;
@@ -94,22 +94,22 @@
     }
 
     .form-name, .phone, .email, .text {
-      background-color: $secondary-color;
+      background-color: #BAC8DD;
       border: none;
-      border-bottom: 1.6px solid $primary-color;
-      color: $primary-color;
+      border-bottom: 1.6px solid #26357c;
+      color: #26357c;
     }
 
     .button-submit {
-      background-color: $primary-color;
+      background-color: #26357c;
       border: none;
       width: 100%;
-      color: $white;
+      color: white;
       margin-top: 28px;
       padding: 8px;
       &:hover {
-        background-color: $white;
-        color: $primary-color;
+        background-color: white;
+        color: #26357c;
         transition: 0.8s;
         text-decoration: none;
       }
