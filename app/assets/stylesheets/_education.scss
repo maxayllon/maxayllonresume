@@ -28,7 +28,7 @@
   &:after {
     background: transparentize(#031625, 0.15);
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.8s ease;
   }
 
   &:before {
@@ -36,7 +36,7 @@
     z-index: 1;
     opacity: 0;
     transform: translate3d(0, 0, 0) translateY(50%);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.8s ease, transform 0.8s ease;
   }
 
   &:hover {
@@ -55,7 +55,7 @@
     .tl-content {
       opacity: 1;
       transform: translateY(0);
-      transition: all 0.75s ease 0.5s;
+      transition: all 0.9s ease 0.8s;
     }
 
     .tl-bg {
@@ -70,11 +70,10 @@
   z-index: 1;
   text-align: center;
   margin: 0 1.618em;
-  top: 55%;
+  top: 50%;
   opacity: 0;
 
   h1 {
-    font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     color: #1779cf;
     font-size: 1.44rem;
@@ -84,14 +83,13 @@
 
 .tl-year {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
   border-bottom: 1px solid #fff;
 
   p {
-    font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1.728rem;
     line-height: 0;
   }
@@ -104,6 +102,38 @@
   top: 0; left: 0;
   background-size: cover;
   background-position: center center;
-  transition: filter 0.5s ease;
+  transition: filter 0.8s ease;
   filter: grayscale(100%);
+}
+
+.essca {
+  background-image: url("essca.png")
+}
+
+@media (max-width: 767px) {
+  #timeline {
+    display: contents !important;
+    &:hover {
+      .tl-item {
+        width: 100% !important;
+      }
+    }
+  }
+
+  .tl-item {
+    width: 100% !important;
+    height: 360px !important;
+    &:hover {
+      .tl-year {
+      position: absolute;
+      top: 30% !important;
+      left: 50% !important;
+      transition: 1s ease-out !important;
+      }
+    }
+  }
+
+  .tl-content {
+    top: 40%;
+  }
 }
