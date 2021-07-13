@@ -1,5 +1,5 @@
 .about_me {
-  color: #26357c;
+  color: $primary-color;
   .photo-header {
     position: absolute;
     width: 100%;
@@ -7,7 +7,7 @@
     justify-content: center;
     .photo-moi {
       border-radius: 50%;
-      border: 8px solid white;
+      border: 8px solid $white;
       width: 400px;
       height: 400px;
       position: relative;

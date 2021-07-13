@@ -1,5 +1,5 @@
 .hobbies {
-  background-color: white;
+  background-color: $white;
   .activities {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -24,7 +24,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #BAC8DD;
+      background-color: $secondary-color;
+      margin: 0 auto;
       &:hover {
         background-color: #f2c94c;
         transition: 0.8s;
@@ -39,7 +40,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #BAC8DD;
+      background-color: $secondary-color;
+      margin: 0 auto;
       &:hover {
         background-color: #926401;
         transition: 0.8s;
@@ -54,7 +56,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #BAC8DD;
+      background-color: $secondary-color;
+      margin: 0 auto;
       &:hover {
         background-color: #3a9b46;
         transition: 0.8s;
@@ -69,7 +72,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #BAC8DD;
+      background-color: $secondary-color;
+      margin: 0 auto;
       &:hover {
         background-color: #44a2c2;
         transition: 0.8s;
@@ -84,7 +88,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #BAC8DD;
+      background-color: $secondary-color;
+      margin: 0 auto;
       .social-image {
         height: 50px;
       }
@@ -102,7 +107,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #BAC8DD;
+      background-color: $secondary-color;
+      margin: 0 auto;
       &:hover {
         background-color: #d4d702;
         transition: 0.8s;

@@ -1,9 +1,9 @@
 .experiences, .educations, .hobbies {
-  color: #26357c;
+  color: $primary-color;
   .experience-title, .education-title, .hobbies-title {
     width: 100%;
-    background-color: white;
-    border: 1px solid #f2eded;
+    background-color: $white;
+    border: 1px solid $border;
     padding: 37px;
     h4 {
       font-size: 20px;
@@ -15,7 +15,7 @@
 }
 
 .experiences, .educations {
-  background-color: white;
+  background-color: $white;
 }
 
 
