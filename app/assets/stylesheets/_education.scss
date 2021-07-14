@@ -22,11 +22,15 @@
     height: 60px;
     background-size: contain;
     background-repeat: no-repeat;
+    margin: 0 auto;
   }
 
   .logo-item-rectangle {
     width: 100px;
     height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
   }
 
   &:before, &:after {
