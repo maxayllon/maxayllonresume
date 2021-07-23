@@ -14,7 +14,7 @@
   }
   .skill_grid{
     color:white;
-    background-color: #BAC8DD;
+    background-attachment: fixed;
     background-size: cover;
     padding: 40px;
     width: 100%;
@@ -31,7 +31,7 @@
       &:hover {
         background-color: #DF3143;
         transition: 0.8s;
-        box-shadow: 3px 3px 18px -1px rgba(0,0,0,0.71)
+        box-shadow: 3px 3px 18px -1px rgba(0,0,0,0.40)
       }
     }
     p {

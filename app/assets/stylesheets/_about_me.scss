@@ -1,5 +1,6 @@
 .about_me {
-  color: #26357c;
+  background-color: #003851;
+  color: white;
   .photo-header {
     position: absolute;
     width: 100%;
@@ -8,18 +9,18 @@
     .photo-moi {
       border-radius: 50%;
       border: 8px solid white;
-      width: 400px;
-      height: 400px;
+      width: 360px;
+      height: 360px;
       position: relative;
-      top: -200px;
+      top: -316px;
     }
   }
   .about-me-text {
-    padding-top: 260px;
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    height: 480px;
+    height: 280px;
+    padding-top: 68px;
     h1 {
       letter-spacing: 8px;
     }
@@ -36,16 +37,15 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .photo-moi {
     width: 300px !important;
     height: 300px !important;
-    top: -154px !important;
   }
 
   .about-me-text {
+    padding-top: 36px !important;
     width: 70% !important;
-    padding-top: 180px !important;
     h1 {
       font-size: 32px !important;
     }
@@ -54,3 +54,14 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .about-me-text {
+    padding-top: 36px !important;
+    width: 70% !important;
+    h1 {
+      font-size: 26px !important;
+    }
+  }
+}
+
