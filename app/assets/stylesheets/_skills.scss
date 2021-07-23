@@ -65,6 +65,7 @@
 }
 
 @media (max-width: 501px) {
+  background-size: 33.3333%;
   .skill_grid {
      grid-template-columns: 1fr !important;
      grid-gap: 28px !important;
