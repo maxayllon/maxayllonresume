@@ -34,6 +34,18 @@
         color: #26357c
       }
     }
+    #selectfr {
+      margin-right: 24px;
+      background-color: #26357c;
+      color: white;
+      border-radius: 50%;
+      &:hover {
+        transition: 0.8s;
+        background-color: #BAC8DD;
+        box-shadow: 3px 3px 18px -1px rgba(0,0,0,0.30);
+        color: #26357c
+      }
+    }
   }
   .download {
     padding: 10px 40px;
