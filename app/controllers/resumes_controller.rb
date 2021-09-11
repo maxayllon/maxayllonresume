@@ -9,4 +9,7 @@ class ResumesController < ApplicationController
 
   def cvenglish
   end
+
+  def cvfr
+  end
 end

@@ -1,0 +1,35 @@
+.container_cv {
+  display: flex;
+  justify-content: center;
+}
+
+.cvpicture {
+  width: 64%;
+  margin: 72px 0px;
+}
+
+.return_button {
+  width: 22px;
+  height: 28px;
+  margin-left: 48px;
+  margin-top: 32px;
+  &:hover {
+    width: 28px;
+    height: 34px;
+    transition: 0.7s;
+  }
+}
+
+@media (max-width: 700px) {
+  .return_button {
+    width: 10px;
+    height: 12px;
+    margin-left: 48px;
+    margin-top: 32px;
+  &:hover {
+    width: 14px;
+    height: 16px;
+    transition: 0.7s;
+  }
+}
+}
