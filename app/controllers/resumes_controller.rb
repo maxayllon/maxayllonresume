@@ -6,4 +6,7 @@ class ResumesController < ApplicationController
   def cv
     @email = Email.new
   end
+
+  def cvenglish
+  end
 end
