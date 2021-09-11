@@ -4,12 +4,12 @@
   </div>
   <div class="footers-infos">
     <div class="quick-infos">
-      <h3>QUICK INFOS</h3>
+      <h3>INFOS</h3>
       <div class="red-square"></div>
       <div class="info-key">
         <div class="info-value">
           <p>Email</p>
-          <p>Phone</p>
+          <p>Téléphone</p>
           <p class="link">Linkedin</p>
         </div>
         <div class="info-value">
@@ -22,22 +22,22 @@
       </div>
     </div>
     <div class="contact">
-      <h3>CONTACT ME</h3>
+      <h3>CONTACTEZ MOI</h3>
       <div class="red-square"></div>
       <%= simple_form_for(@email) do |f| %>
         <div id="info" class="line">
           <div class="form-container">
             <div class="form-name-phone">
-              <%= f.input_field :name, placeholder: "name *", class: "form-name" %>
-              <%= f.input_field :phone, placeholder: "phone", class: "phone" %>
+              <%= f.input_field :name, placeholder: "nom *", class: "form-name" %>
+              <%= f.input_field :phone, placeholder: "téléphone", class: "phone" %>
             </div>
             <div class="form-email">
               <%= f.input_field :mail, placeholder: "email *", class: "email" %>
             </div>
             <div class="form-text">
-              <%= f.input_field :message, placeholder: "type your message *", class: "text" %>
+              <%= f.input_field :message, placeholder: "écrire un message *", class: "text" %>
             </div>
-            <%= f.submit "Submit", class: "button-submit" %>
+            <%= f.submit "Envoyer", class: "button-submit" %>
           </div>
         </div>
       <% end %>
